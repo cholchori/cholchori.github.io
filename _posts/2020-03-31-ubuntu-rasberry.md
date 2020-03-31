@@ -6,36 +6,46 @@ categories: ["IT"]
 ---
 # 재부팅시 fsck
 * root 로 로그인
-```
+<pre>
+<code>
 touch /forcefsck
-```
+</code>
+</pre>
 * reboot
 
 # WiFi 설정
 * SSID 접속
-```
+<pre>
+<code>
 nmcli d 
 nmcli r wifi on 
 nmcli d wifi list 
 nmcli d wifi connect my_wifi password <password>
-```
+</code>
+</pre>
 * Hidden SSID 접속
-```
+<pre>
+<code>
 nmcli c add type wifi con-name <name> ifname wlan0 ssid <ssid>
 nmcli c modify <name> wifi-sec.key-mgmt wpa-psk wifi-sec.psk <password> nmcli c up <name>
-```
+</code>
+</pre>
 
 
 # locale 바꾸기 
-```
+<pre>
+<code>
 sudo dpkg-reconfigure locales   
 sudo update-locale LANG=ko_KR.UTF-8 LC_MESSAGES=POSIX
-```
+</code>
+</pre>
 
 # timezone 변경
-```
+<pre>
+<code>
 sudo tzselect
-```
+</code>
+</pre>
 
 # 5G WiFi 접속 
 * 라즈베리파이 기본 설정에서 5G 무선 와이파이 SSID 검색 불가
@@ -101,7 +111,8 @@ sudo apt-get install php*
 </pre>
 
 * SSL 설정
-```
+<pre>
+<code>
 server {
   listen 80;
   server_name domain.com;
@@ -120,20 +131,25 @@ server {
         ssl_prefer_server_ciphers on;
 
         server_name domain.com;
-```
+</code>
+</pre>
 
 # 서비스 등록 
 * /etc/systemd/system/myservice.service 작성
-```
+<pre>
+<code>
 [Unit] Description=serviceName 
 
 [Service] ExecStart=/path/path/servce.sh 
 
 [Install] WantedBy=multi-user.target
-```
+</code>
+</pre>
 
 * 실행
-```
+<pre>
+<code>
 systemctl enable serviceName 
 service serviceName start
-```
+</code>
+</pre>
