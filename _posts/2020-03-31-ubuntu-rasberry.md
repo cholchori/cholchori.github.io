@@ -4,12 +4,12 @@ layout: post
 date: 2020-03-31
 categories: ["IT"]
 ---
-== 재부팅시 fsck ==
+# 재부팅시 fsck
 * root 로 로그인
 <pre>touch /forcefsck</pre>
 * reboot
 
-== WiFi 설정 ==
+# WiFi 설정
 * SSID 접속
 <pre>nmcli d 
 nmcli r wifi on 
@@ -20,27 +20,27 @@ nmcli d wifi connect my_wifi password <password></pre>
 nmcli c modify <name> wifi-sec.key-mgmt wpa-psk wifi-sec.psk <password> nmcli c up <name></pre>
 
 
-== locale 바꾸기 ==
+# locale 바꾸기 
 <pre>sudo dpkg-reconfigure locales
 sudo update-locale LANG=ko_KR.UTF-8 LC_MESSAGES=POSIX
 </pre>
 
-== timezone 변경 ==
+# timezone 변경
 <pre>sudo tzselect</pre>
 
-== 5G WiFi 접속 ==
+# 5G WiFi 접속 
 * 라즈베리파이 기본 설정에서 5G 무선 와이파이 SSID 검색 불가
 * 해결책 무선 국가코드를 미국(US)로 설정
 * /etc/default/crda 을 편집
 :- REGDOMAIN=US 로 설정
 * sudo service network-manager restart
 
-== vi color 변경 ==
+# vi color 변경
 * vi 컬러때문에 글읽기가 곤란할때
 * /usr/share/vim/vim81/colors 에 파일을 보면 적용가능한 color 파일들이(.vim) 있음
 * /etc/vim/vimrc 파일에 :colorscheme ron 형태로 원하는 color 이름을 적용
 
-== Nginx php mariaDB 설치 ==
+# Nginx php mariaDB 설치 
 * 설치
 <pre>sudo apt install nginx
 sudo systemctl status nginx
@@ -107,7 +107,7 @@ server {
 
         server_name domain.com;</pre>
 
-== 서비스 등록 ==
+# 서비스 등록 
 * /etc/systemd/system/myservice.service 작성
 <pre>[Unit] Description=serviceName 
 
