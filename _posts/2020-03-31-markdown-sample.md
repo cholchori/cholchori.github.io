@@ -157,6 +157,8 @@ This is a normal paragraph:
     This is a code block.
     
 end code block.
+
+  This is a code block.
 ```
 
 실제로 적용해보면,
@@ -169,6 +171,8 @@ This is a normal paragraph:
     This is a code block.
 
 end code block.
+
+  This is a code block.
 *****
 
 > 한줄 띄어쓰지 않으면 인식이 제대로 안되는 문제가 발생합니다.
