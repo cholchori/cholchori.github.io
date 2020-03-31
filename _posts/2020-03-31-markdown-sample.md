@@ -3,7 +3,7 @@ title: 마크다운 샘플
 layout: post
 date: 2020-03-31
 description: 
-image: 
+image: smile.gif
 categories: ["markdown"]
 ---
 
