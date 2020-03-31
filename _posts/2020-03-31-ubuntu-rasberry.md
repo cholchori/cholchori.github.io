@@ -20,18 +20,22 @@ nmcli d wifi list
 nmcli d wifi connect my_wifi password <password>
 ```
 * Hidden SSID 접속
-<pre>nmcli c add type wifi con-name <name> ifname wlan0 ssid <ssid>    
+```
+nmcli c add type wifi con-name <name> ifname wlan0 ssid <ssid>
 nmcli c modify <name> wifi-sec.key-mgmt wpa-psk wifi-sec.psk <password> nmcli c up <name>
-</pre>
+```
 
 
 # locale 바꾸기 
-<pre>sudo dpkg-reconfigure locales   
+```
+sudo dpkg-reconfigure locales   
 sudo update-locale LANG=ko_KR.UTF-8 LC_MESSAGES=POSIX
-</pre>
+```
 
 # timezone 변경
-<pre>sudo tzselect</pre>
+```
+sudo tzselect
+```
 
 # 5G WiFi 접속 
 * 라즈베리파이 기본 설정에서 5G 무선 와이파이 SSID 검색 불가
@@ -47,7 +51,8 @@ sudo update-locale LANG=ko_KR.UTF-8 LC_MESSAGES=POSIX
 
 # Nginx php mariaDB 설치 
 * 설치
-<pre>sudo apt install nginx
+```
+sudo apt install nginx
 sudo systemctl status nginx
 sudo systemctl start nginx
 sudo ufw app list
@@ -90,10 +95,12 @@ sudo apt-cache search php- | less
 sudo apt-cache show php-gd
 sudo apt-get install php-gd
 
-sudo apt-get install php*</pre>
+sudo apt-get install php*
+```
 
 * SSL 설정
-<pre>server {
+```
+server {
   listen 80;
   server_name domain.com;
   rewrite ^ https://$server_name$request_uri? permanent;
@@ -110,16 +117,21 @@ server {
         ssl_certificate_key /etc/nginx/ssl/****-key.pem;
         ssl_prefer_server_ciphers on;
 
-        server_name domain.com;</pre>
+        server_name domain.com;
+```
 
 # 서비스 등록 
 * /etc/systemd/system/myservice.service 작성
-<pre>[Unit] Description=serviceName 
+```
+[Unit] Description=serviceName 
 
 [Service] ExecStart=/path/path/servce.sh 
 
-[Install] WantedBy=multi-user.target</pre>
+[Install] WantedBy=multi-user.target
+```
 
 * 실행
-<pre>systemctl enable serviceName 
-service serviceName start</pre>
+```
+systemctl enable serviceName 
+service serviceName start
+```
