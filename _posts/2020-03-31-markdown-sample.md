@@ -1,4 +1,10 @@
-
+---
+title: 마크다운 샘픔
+layout: post
+date: 2020-03-31
+description: 
+categories: ["markdown"]
+---
 
 # 1. 마크다운에 관하여
 ## 1.1. 마크다운이란?
