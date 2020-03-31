@@ -20,15 +20,15 @@ touch /forcefsck
 nmcli d
 nmcli r wifi on
 nmcli d wifi list
-nmcli d wifi connect my_wifi password [password]
+nmcli d wifi connect my_wifi password (password)
 </code>
 </pre>
 
 * Hidden SSID 접속
 <pre>
 <code>
-nmcli c add type wifi con-name [name] ifname wlan0 ssid [ssid]
-nmcli c modify [name] wifi-sec.key-mgmt wpa-psk wifi-sec.psk [password] nmcli c up [name]
+nmcli c add type wifi con-name (name) ifname wlan0 ssid (ssid)
+nmcli c modify (name) wifi-sec.key-mgmt wpa-psk wifi-sec.psk (password) nmcli c up (name)
 </code>
 </pre>
 
