@@ -17,12 +17,13 @@ touch /forcefsck
 * SSID 접속
 <pre>
 <code>
-nmcli d 
-nmcli r wifi on 
-nmcli d wifi list 
+nmcli d
+nmcli r wifi on
+nmcli d wifi list
 nmcli d wifi connect my_wifi password <password>
 </code>
 </pre>
+
 * Hidden SSID 접속
 <pre>
 <code>
