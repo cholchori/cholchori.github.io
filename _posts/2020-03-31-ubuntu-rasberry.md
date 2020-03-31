@@ -6,15 +6,19 @@ categories: ["IT"]
 ---
 # 재부팅시 fsck
 * root 로 로그인
-<pre>touch /forcefsck</pre>
+```
+touch /forcefsck
+```
 * reboot
 
 # WiFi 설정
 * SSID 접속
-<pre>nmcli d 
+```
+nmcli d 
 nmcli r wifi on 
 nmcli d wifi list 
-nmcli d wifi connect my_wifi password <password></pre>
+nmcli d wifi connect my_wifi password <password>
+```
 * Hidden SSID 접속
 <pre>nmcli c add type wifi con-name <name> ifname wlan0 ssid <ssid>    
 nmcli c modify <name> wifi-sec.key-mgmt wpa-psk wifi-sec.psk <password> nmcli c up <name>
