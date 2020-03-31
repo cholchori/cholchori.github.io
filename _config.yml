@@ -1,4 +1,3 @@
-remote_theme : sharadcodes/jekyll-theme-milo
 title: "불친절한 호작대마왕"
 url                      : "https://cholchori.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
