@@ -51,7 +51,8 @@ sudo tzselect
 
 # Nginx php mariaDB 설치 
 * 설치
-```
+<pre>
+<code>
 sudo apt install nginx
 sudo systemctl status nginx
 sudo systemctl start nginx
@@ -96,7 +97,8 @@ sudo apt-cache show php-gd
 sudo apt-get install php-gd
 
 sudo apt-get install php*
-```
+<code>
+</pre>
 
 * SSL 설정
 ```
