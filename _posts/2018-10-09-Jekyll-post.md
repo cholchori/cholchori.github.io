@@ -4,7 +4,7 @@ layout: post
 date: 2018-10-09
 description: A complete post.
 image: 3.jpg
-categories: ["c"]
+categories: ["test"]
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`
