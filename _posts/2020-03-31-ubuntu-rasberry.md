@@ -2,6 +2,7 @@
 title: 우분투 서버 라즈베리 파이 설정
 layout: post
 date: 2020-03-31
+image:
 categories: ["IT"]
 ---
 # 재부팅시 fsck
