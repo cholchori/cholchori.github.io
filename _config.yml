@@ -1,0 +1,30 @@
+title: "불친절한 호작대마왕"
+remote_theme : sharadcodes/jekyll-theme-milo
+url                      : "https://cholchori.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+about: "호작대마왕"ㅇ
+
+
+
+plugins: 
+  - jekyll-paginate
+  - jemoji
+  
+paginate_path: "/page:num/"
+
+paginate: 5
+
+main_toc:
+  - title: Home
+    url: ""
+  - title: About
+    url: "about"
+  - title: Author
+    url: "author"
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
