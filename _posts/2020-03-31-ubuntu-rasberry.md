@@ -16,12 +16,13 @@ nmcli r wifi on
 nmcli d wifi list 
 nmcli d wifi connect my_wifi password <password></pre>
 * Hidden SSID 접속
-<pre>nmcli c add type wifi con-name <name> ifname wlan0 ssid <ssid> 
-nmcli c modify <name> wifi-sec.key-mgmt wpa-psk wifi-sec.psk <password> nmcli c up <name></pre>
+<pre>nmcli c add type wifi con-name <name> ifname wlan0 ssid <ssid>    
+nmcli c modify <name> wifi-sec.key-mgmt wpa-psk wifi-sec.psk <password> nmcli c up <name>
+</pre>
 
 
 # locale 바꾸기 
-<pre>sudo dpkg-reconfigure locales
+<pre>sudo dpkg-reconfigure locales   
 sudo update-locale LANG=ko_KR.UTF-8 LC_MESSAGES=POSIX
 </pre>
 
