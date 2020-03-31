@@ -97,7 +97,7 @@ sudo apt-cache show php-gd
 sudo apt-get install php-gd
 
 sudo apt-get install php*
-<code>
+</code>
 </pre>
 
 * SSL 설정
