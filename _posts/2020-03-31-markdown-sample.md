@@ -368,6 +368,7 @@ __double underscores__
 | Third row     | Cell that spans across two columns  ||
 [Table caption, works as a reference][section-mmd-tables-table1]
 ```
+
 | First Header  | Second Header | Third Header         |
 | :------------ | :-----------: | -------------------: |
 | First row     | Data          | Very long data entry |
@@ -398,6 +399,7 @@ __double underscores__
 | ---------- | :--------- | :----------: | ----------: |
 | Default</br>next line    | Left       | Center       | Right       |
 ```
+
 | Header One | Header Two | Header Three | Header Four |
 | ---------- | :--------- | :----------: | ----------: |
 | Default</br>next line    | Left       | Center       | Right       |
