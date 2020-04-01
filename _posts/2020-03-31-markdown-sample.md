@@ -376,6 +376,12 @@ __double underscores__
 [Table caption, works as a reference][section-mmd-tables-table1]
 
 캡션부분은 올바르게 작동되지 않는다
+| First Header  | Second Header | Third Header         |
+| :------------ | :-----------: | -------------------: |
+| First row     | Data          | Very long data entry |
+| Second row    | **Cell**      | *Cell*               |
+| Third row     | Cell that spans| across two columns  |
+
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
