@@ -379,4 +379,4 @@ __double underscores__
 ```
 | Header One | Header Two | Header Three | Header Four |
 | ---------- | :--------- | :----------: | ----------: |
-| Default    | Left       | Center       | Right       |
+| Default</br>next line    | Left       | Center       | Right       |
