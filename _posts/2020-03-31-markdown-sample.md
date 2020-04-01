@@ -376,7 +376,8 @@ __double underscores__
 | Third row     | Cell that spans across two columns  ||
 [Table caption, works as a reference][section-mmd-tables-table1]
 
-캡션부분은 올바르게 작동되지 않는다
+캡션부분은 올바르게 작동되지 않는다   
+cell span 없이 작성하면 제대로 표현
 
 | First Header  | Second Header | Third Header         |
 | :------------ | :-----------: | -------------------: |
