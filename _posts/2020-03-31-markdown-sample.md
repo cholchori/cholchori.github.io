@@ -357,6 +357,7 @@ __double underscores__
 이렇게
 
 # 3. 표
+## 3.1 표 기본
 ```
 | First Header  | Second Header | Third Header         |
 | :------------ | :-----------: | -------------------: |
@@ -372,11 +373,16 @@ __double underscores__
 | Third row     | Cell that spans across two columns  ||
 [Table caption, works as a reference][section-mmd-tables-table1]
 
-```
-| Header One | Header Two | Header Three | Header Four |
-| ---------- | :--------- | :----------: | ----------: |
-| Default    | Left       | Center       | Right       |
+캡션부분은 올바르게 작동되지 않는다
+
+## 3.2 표 정열
 ```
 | Header One | Header Two | Header Three | Header Four |
 | ---------- | :--------- | :----------: | ----------: |
 | Default</br>next line    | Left       | Center       | Right       |
+```
+| Header One | Header Two | Header Three | Header Four |
+| ---------- | :--------- | :----------: | ----------: |
+| Default</br>next line    | Left       | Center       | Right       |
+
+표 내부의 개행은 </br> 을 따로 넣어줘야 한다 
