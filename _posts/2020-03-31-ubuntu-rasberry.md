@@ -21,7 +21,7 @@ touch /forcefsck
 nmcli d
 nmcli r wifi on
 nmcli d wifi list
-nmcli d wifi connect my_wifi password (password)
+nmcli d wifi connect my_wifi password [password]
 </code>
 </pre>
 
