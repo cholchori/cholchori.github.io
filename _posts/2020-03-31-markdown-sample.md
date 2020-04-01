@@ -385,4 +385,4 @@ __double underscores__
 | ---------- | :--------- | :----------: | ----------: |
 | Default</br>next line    | Left       | Center       | Right       |
 
-표 내부의 개행은 </br> 을 따로 넣어줘야 한다 
+표 내부의 개행은 \</br\> 을 따로 넣어줘야 한다 
