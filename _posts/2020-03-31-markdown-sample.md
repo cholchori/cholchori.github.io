@@ -377,6 +377,14 @@ __double underscores__
 
 캡션부분은 올바르게 작동되지 않는다
 
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+
 ## 3.2 표 정열
 ```
 | Header One | Header Two | Header Three | Header Four |
