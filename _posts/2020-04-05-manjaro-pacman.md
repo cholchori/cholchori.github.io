@@ -1,5 +1,11 @@
-__TOC__
-
+---
+title: manjaro linux pacman
+layout: post
+date: 2020-04-05
+description: 
+image: smile.gif
+categories: ["IT"]
+---
 
 # Overview
 
@@ -16,11 +22,14 @@ Key points to know:
 # Installing Updates
 
 To update the package database and update all packages on the system
+```
  sudo pacman -Syu
-
+```
 
 To force a full refresh of the package database and update all packages on the system. You must do this when [[Switching_Branches|switching branches]] or [[Pacman-mirrors|switching mirrors]].
+```
  sudo pacman -Syyu
+ ```
 
 
 To force a full refresh of the package database, update all packages on the system and allow packages to be downgraded.  Downgrading should be only be needed when switching to an older branch.  For example, switching from Testing to Stable.
@@ -167,6 +176,3 @@ A separate page for pacman troubleshooting is available '''[[pacman troubleshoot
 * [https://wiki.archlinux.org/index.php/Pacman ArchWiki: pacman]
 * [https://wiki.archlinux.org/index.php/Pacman_tips ArchWiki: pacman tips]
 * [https://wiki.archlinux.org/index.php/Improve_pacman_performance ArchWiki: pacman performance]
-
-
-[[Category:Contents Page]]
