@@ -19,15 +19,15 @@ Github은 즐겨 이용한다
 Github에 블로그를 만들수 있다고 해서 한번 만들어 보았다
 
 
-1. github에 가입을 한다
+# 1. github에 가입을 한다
 
  이부분은 설명이 필요 없고 알아서 가입을
 
-2. Repositories 를 하나 생성한다
+# 2. Repositories 를 하나 생성한다
 
  Repositories 이름은 [id].github.io 로 생성을 해줘야 나중에 블로그로 접속이 가능하다
 
-3. Jekyll theme를 하나 골라서 업로드 한다
+# 3. Jekyll theme를 하나 골라서 업로드 한다
 
  http://jekyllthemes.org/
 
@@ -46,7 +46,7 @@ Github에 블로그를 만들수 있다고 해서 한번 만들어 보았다
  테마를 다운받아 만든 [id].github.io 에 그냥 업로드를 했다
 
 
-4. jekyll theme 설정을 한다
+# 4. jekyll theme 설정을 한다
 
  업로드 된 테마에서 제일 먼저 
 
@@ -97,7 +97,7 @@ _includes
 
  개인적으로 이미지 덕지 덕지 뜨는것이 싫어서 이미지 붙는 것은 빼버렸다(text 신봉주의자)
 
-5. 이제 새글을 하나 써보자
+# 5. 이제 새글을 하나 써보자
 
  github.com 에 접속해서 로긴을 하고 
 
