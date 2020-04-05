@@ -63,7 +63,7 @@ Finally, for a list of all installed packages on your system, enter the followin
 
 
 # Installing Packages
-``
+```
 Never install a package without updating the system first.  On a rolling release this can lead to an unbootable system
 ```
 
