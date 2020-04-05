@@ -29,13 +29,13 @@ Github에 블로그를 만들수 있다고 해서 한번 만들어 보았다
 
 # 3. Jekyll theme를 하나 골라서 업로드 한다
 
- http://jekyllthemes.org/
+ [http://jekyllthemes.org/](http://jekyllthemes.org/)
 
  jekyllthemes.org 에 접속해 보면 github에서 사용할 수 있는 theme들이 엄청나게 많다
 
  나는 그냥 
 
- https://github.com/sharadcodes/jekyll-theme-milo
+ [https://github.com/sharadcodes/jekyll-theme-milo](https://github.com/sharadcodes/jekyll-theme-milo)
 
  sharadcodes/jekyll-theme-milo
 
