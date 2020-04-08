@@ -5,6 +5,23 @@ date: 2020-03-31
 image: smile.gif
 categories: ["IT"]
 ---
+
+# 버전 업그레이드
+* update-manager-core 설치
+```
+sudo apt install update-manager-core
+```
+* 패키지 업그레이드
+```
+sudo apt update 
+sudo apt upgrade
+sudo apt dist-upgrade
+```
+* 버전 업그레이드
+```
+sudo do-release-upgrade
+```
+
 # 재부팅시 fsck
 * root 로 로그인
 <pre>
