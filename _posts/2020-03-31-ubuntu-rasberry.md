@@ -8,16 +8,19 @@ categories: ["IT"]
 
 # 버전 업그레이드
 * update-manager-core 설치
+
 ```
 sudo apt install update-manager-core
 ```
 * 패키지 업그레이드
+
 ```
 sudo apt update 
 sudo apt upgrade
 sudo apt dist-upgrade
 ```
 * 버전 업그레이드
+
 ```
 sudo do-release-upgrade
 ```
