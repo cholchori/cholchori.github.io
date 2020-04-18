@@ -10,7 +10,7 @@ categories: ["study"]
 The Academic Word List
 
 |Headword   |				Sublist  | 				Related word forms   |
-|:----------|:----------:|:----------------------||
+|:----------|:----------:|:----------------------|
 |analyse		|		1			|	analysed, analyser, analysers, analyses, analysing, analysis, analyst, analysts, analytic, analytical, analytically, analyze, analyzed, analyzes, analyzing|
 |approach		|		1			|	approachable, approached, approaches, approaching, unapproachable|
 |area			|	1				|areas|
