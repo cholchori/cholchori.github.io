@@ -3,7 +3,7 @@ title: "호작"
 about: "불친절한 호작대마왕"
 markdown: kramdown
 url: "https://cholchori.github.io"
-baseurl: "/"
+baseurl: "https://cholchori.github.io/"
 disqus_short_name: disqus-demo-page
 
 plugins: 
