@@ -193,10 +193,10 @@ function test(){
 
 `을 세개 찍는다  
 
-```javascript  
+```<code>javascript  
 function test(){  
     console.log("hello world!");  
-}  
+}<code>    
 ```  
 
 # 테이블
