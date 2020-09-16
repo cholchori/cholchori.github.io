@@ -163,3 +163,145 @@ _이탤릭_
 링크와 비슷(앞에 !가 붙음)  
 이미지 ![](https://github.com/cholchori/cholchori.github.io/blob/master/img/smile.gif)  
 이미지 링크 [![](https://github.com/cholchori/cholchori.github.io/blob/master/img/smile.gif)](https://cholchori.tistory.com "다른 홈페이지로 이동")  
+
+# 테이블
+
+```
+헤드1|헤드2
+---|---|
+내용1|내용2
+내용3|내용4
+
+|헤드1|헤드2|
+| --- | --- |
+|내용1|내용2|
+|내용3|내용4|
+
+|왼쪽 정렬|중간정렬|오른쪽 정렬|
+| :---    | :---:  |      ---:|
+|내용1|내용2|내용3|
+|내용4|내용5|내용6|
+
+```
+
+헤드1|헤드2
+---|---|
+내용1|내용2
+내용3|내용4
+
+|헤드1|헤드2|
+| --- | --- |
+|내용1|내용2|
+|내용3|내용4|
+
+|왼쪽 정렬|중간정렬|오른쪽 정렬|
+| :---    | :---:  |      ---:|
+|내용1|내용2|내용3|
+|내용4|내용5|내용6|
+
+# HTML 컨텐츠
+```
+&copy; & &uml; &trade; &iexcl; &pound; &amp; &lt; &gt; &yen; &euro; &reg; &plusmn; &para; &sect; &brvbar; &macr; &laquo; &middot;  
+X&sup2; Y&sup3; &frac34; &frac14; &times; &divide; &raquo;  
+18&ordm;C &quot; &apos;  
+
+```
+
+&copy; & &uml; &trade; &iexcl; &pound; &amp; &lt; &gt; &yen; &euro; &reg; &plusmn; &para; &sect; &brvbar; &macr; &laquo; &middot;  
+X&sup2; Y&sup3; &frac34; &frac14; &times; &divide; &raquo;  
+18&ordm;C &quot; &apos;  
+
+# 태스크 리스트  
+```
+- [ ] 일거리1
+    - [ ] 소일거리1
+    - [ ] 소일거리2
+    - [x] 소일거리3
+    - [x] 소일거리4
+- [ ] 일거리2
+- [ ] 일거리3
+- [x] 일거리4
+
+```
+
+- [ ] 일거리1
+    - [ ] 소일거리1
+    - [ ] 소일거리2
+    - [x] 소일거리3
+    - [x] 소일거리4
+- [ ] 일거리2
+- [ ] 일거리3
+- [x] 일거리4
+
+# 이모지   
+```
+: 를 입력하고 알파벳을 놀러 보면 연관 이모지가 선택이 가능하다   
+:star: :calendar: :zzz:   
+
+```
+
+: 를 입력하고 알파벳을 놀러 보면 연관 이모지가 선택이 가능하다   
+:star: :calendar: :zzz:   
+
+# 도표
+
+<pre>
+```mermaid
+    graph TD
+        A[Christmas] -->|Get money| B(Go Shopping)
+        B --> C{Let me think}
+        C --> |One| D[Laptop]
+        C --> |Two| E[iPhone]
+        C --> |Three| F[fa:fa-car Car]
+```
+
+```mermaid
+    sequenceDiagram
+        Alice->>+John: Hello Jhon, ow are you?
+        Alice->>+John: John, can you hear me?
+        John->>-Alice: Hi Alice, I can hear you!
+        John->>-Alice: I feel great!
+```
+
+```mermaid
+    gantt
+        title A Gantt Diagram
+        dateFormat YYYY-MM-DD
+        section Section
+        A task :a1, 2020-01-01, 30d
+        another task :after a1 , 20d
+        section Another
+        Task in sec :2020-01-12 , 12d
+        another task : 24d
+```
+</pre>
+
+
+```mermaid
+    graph TD
+        A[Christmas] -->|Get money| B(Go Shopping)
+        B --> C{Let me think}
+        C --> |One| D[Laptop]
+        C --> |Two| E[iPhone]
+        C --> |Three| F[fa:fa-car Car]
+```
+
+```mermaid
+    sequenceDiagram
+        Alice->>+John: Hello Jhon, ow are you?
+        Alice->>+John: John, can you hear me?
+        John->>-Alice: Hi Alice, I can hear you!
+        John->>-Alice: I feel great!
+```
+
+```mermaid
+    gantt
+        title A Gantt Diagram
+        dateFormat YYYY-MM-DD
+        section Section
+        A task :a1, 2020-01-01, 30d
+        another task :after a1 , 20d
+        section Another
+        Task in sec :2020-01-12 , 12d
+        another task : 24d
+```
