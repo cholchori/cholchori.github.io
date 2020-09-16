@@ -185,13 +185,13 @@ function test(){
 ```
 html
 ```html
-< html>
-    < head>
+<html>
+    <head>
         < title>hello world!< /title>
-    < body>
-        < h1>hello world!< /h1>
-    < /body>
-< /html>
+    <body>
+        <h1>hello world!< /h1>
+    </body>
+</html>
 ```
 
 </pre>
