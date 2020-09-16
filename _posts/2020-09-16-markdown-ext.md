@@ -6,15 +6,6 @@ description:
 image: smile.gif
 categories: ["markdown"]
 ---
-**목차**  
-# 목차 만들기  
-```
-[[_TOC_]]
-or
-[TOC]
-등
-```
-Github에서는 작동 안됨  
 
 # 헤더  
 ```
