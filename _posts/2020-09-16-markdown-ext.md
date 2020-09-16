@@ -7,6 +7,7 @@ image: smile.gif
 categories: ["markdown"]
 ---
 
+
 # 헤더  
 
 ```
