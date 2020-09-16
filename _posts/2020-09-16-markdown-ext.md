@@ -174,9 +174,9 @@ _이탤릭_
 ## 코드블럭
 <pre>
 스페이스 4개를 붙인다
-    <?php
+    <? php
         echo "hello world!";
-    ?>
+    ? >
 `을 세개 찍는다
 ```javascript
 function test(){
