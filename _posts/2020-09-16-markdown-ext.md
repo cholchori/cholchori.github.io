@@ -7,7 +7,7 @@ image: smile.gif
 categories: ["markdown"]
 ---
 
-마크다운 문법을 정리
+마크다운 문법을 다시한번 정리
 
 # 헤더  
 
@@ -195,16 +195,6 @@ function test(){
 function test(){
     console.log("hello world!");
 }
-```
-html
-```html
-<html>
-    <head>
-        <title>hello world!</title>
-    <body>
-        <h1>hello world!</h1>
-    </body>
-</html>
 ```
 
 # 테이블
