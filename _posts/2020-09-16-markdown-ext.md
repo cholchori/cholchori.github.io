@@ -187,15 +187,16 @@ function test(){
 
 스페이스 4개를 붙인다   
 
-    <?php
-        echo "hello world!";
-    ?>
-`을 세개 찍는다
-```javascript
-function test(){
-    console.log("hello world!");
-}
-```
+    <?php  
+        echo "hello world!";  
+    ?>  
+`을 세개 찍는다  
+
+```javascript  
+function test(){  
+    console.log("hello world!");  
+}  
+```  
 
 # 테이블
 
