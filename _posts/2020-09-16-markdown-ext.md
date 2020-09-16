@@ -150,31 +150,6 @@ _이탤릭_
 이미지 ![](https://github.com/cholchori/cholchori.github.io/blob/master/img/smile.gif)  
 이미지 링크 [![](https://github.com/cholchori/cholchori.github.io/blob/master/img/smile.gif)](https://cholchori.tistory.com "다른 홈페이지로 이동")  
 
-
-# 코드블럭
-## 인라인 코드
-```
-`$ rm -rf /`
-```
-`$ rm -rf /`
-## 코드블럭
-
-앞에 스페이스 4개를 붙인다   
-
-    function test(){  
-        console.log("hello world!");  
-    }    
-
-
-`을 세개 찍는다  
-
-```javascript  
-function test(){  
-    console.log("hello world!");  
-}    
-```  
-
-
 # 테이블
 
 ```
