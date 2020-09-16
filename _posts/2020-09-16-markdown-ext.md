@@ -183,17 +183,6 @@ function test(){
     console.log("hello world!");
 }
 ```
-html
-```html
-<html>
-    <head>
-        < title>hello world!< /title>
-    <body>
-        <h1>hello world!< /h1>
-    </body>
-</html>
-```
-
 </pre>
 
 스페이스 4개를 붙인다   
