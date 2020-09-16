@@ -9,8 +9,14 @@ categories: ["markdown"]
 
 마크다운 문법을 다시한번 정리
 
-# 헤더  
+**목차**  
+# 목차 만들기  
+```
+[[_TOC_]]
+```
 
+[[_TOC_]]  
+# 헤더  
 ```
 # H1 헤더
 ## H2 헤더
@@ -36,7 +42,7 @@ categories: ["markdown"]
     1. 서브리스트1
     1. 서브리스트2
     1. 서브리스트3
-1. 리스트2x
+1. 리스트2
     1. 서브리스트1
         1. 서서브리스트1
         1. 서서브리스트2
@@ -119,50 +125,60 @@ _이탤릭_
 > Blockquotes  
 >> Blockquotes  
 
-# 수평선
-```
-* * *
-
-***
-
-*****
-
-- - -
-```
-
-* * *
-
-***
-
-*****
-
-- - -
-
-
 # 링크
 ```
-[링크](https://www.google.com)  
-[내부링크](/그어딘가)  
-<https://cholchori.github.io>  
-[링크설명](https://cholchori.tistory.com "다른 홈페이지로 이동합니다")
+[링크](http://192.168.6.9:9003/)  
+[내부링크](/3과 대문)  
+<http://192.168.6.9:9003/>  
+[링크설명](http://192.168.6.9:9003/ "사고관리 시스템으로 이동합니다")
 ```
-[링크](https://www.google.com)  
-[내부링크](/그어딘가)  
-<https://cholchori.github.io>  
-[링크설명](https://cholchori.tistory.com "다른 홈페이지로 이동합니다")
+[링크](http://192.168.6.9:9003/)  
+[내부링크](/3과 대문)  
+<http://192.168.6.9:9003/>  
+[링크설명](http://192.168.6.9:9003/ "사고관리 시스템으로 이동합니다")
 
 
 # 이미지
 ```
 링크와 비슷(앞에 !가 붙음)  
-이미지 ![](https://github.com/cholchori/cholchori.github.io/blob/master/img/smile.gif)  
-이미지 링크 [![](https://github.com/cholchori/cholchori.github.io/blob/master/img/smile.gif)](https://cholchori.tistory.com "다른 홈페이지로 이동")  
+이미지 ![](http://192.168.6.114:8090/chase/target/-/wikis/uploads/6b4ee3184c8b43af6093ccb420e408ee/image.png)  
+이미지 링크 [![](http://192.168.6.114:8090/chase/target/-/wikis/uploads/6b4ee3184c8b43af6093ccb420e408ee/image.png)](http://192.168.6.9:9003/ "사고관리 시스템으로 이동")  
 
 ```
 
 링크와 비슷(앞에 !가 붙음)  
-이미지 ![](https://github.com/cholchori/cholchori.github.io/blob/master/img/smile.gif)  
-이미지 링크 [![](https://github.com/cholchori/cholchori.github.io/blob/master/img/smile.gif)](https://cholchori.tistory.com "다른 홈페이지로 이동")  
+이미지 ![](http://192.168.6.114:8090/chase/target/-/wikis/uploads/6b4ee3184c8b43af6093ccb420e408ee/image.png)  
+이미지 링크 [![](http://192.168.6.114:8090/chase/target/-/wikis/uploads/6b4ee3184c8b43af6093ccb420e408ee/image.png)](http://192.168.6.9:9003/ "사고관리 시스템으로 이동")
+
+# 코드블럭
+## 인라인 코드
+```
+`$ rm -rf /`
+```
+`$ rm -rf /`
+## 코드블럭
+
+스페이스 4개를 붙인다   
+
+    <?php
+        echo "hello world!";
+    ?>
+`을 세개 찍는다
+```javascript
+function test(){
+    console.log("hello world!");
+}
+```
+html
+```html
+<html>
+    <head>
+        <title>hello world!</title>
+    <body>
+        <h1>hello world!</h1>
+    </body>
+</html>
+```
 
 # 테이블
 
@@ -199,3 +215,98 @@ _이탤릭_
 |내용1|내용2|내용3|
 |내용4|내용5|내용6|
 
+
+# 태스크 리스트  
+```
+- [ ] 일거리1
+    - [ ] 소일거리1
+    - [ ] 소일거리2
+    - [x] 소일거리3
+    - [x] 소일거리4
+- [ ] 일거리2
+- [ ] 일거리3
+- [x] 일거리4
+
+```
+
+- [ ] 일거리1
+    - [ ] 소일거리1
+    - [ ] 소일거리2
+    - [x] 소일거리3
+    - [x] 소일거리4
+- [ ] 일거리2
+- [ ] 일거리3
+- [x] 일거리4
+
+# 이모지   
+```
+: 를 입력하고 알파벳을 놀러 보면 연관 이모지가 선택이 가능하다   
+:star: :calendar: :zzz:   
+
+```
+
+: 를 입력하고 알파벳을 놀러 보면 연관 이모지가 선택이 가능하다   
+:star: :calendar: :zzz:   
+
+# 도표
+
+<pre>
+```mermaid
+    graph TD
+        A[Christmas] -->|Get money| B(Go Shopping)
+        B --> C{Let me think}
+        C --> |One| D[Laptop]
+        C --> |Two| E[iPhone]
+        C --> |Three| F[fa:fa-car Car]
+```
+
+```mermaid
+    sequenceDiagram
+        Alice->>+John: Hello Jhon, ow are you?
+        Alice->>+John: John, can you hear me?
+        John->>-Alice: Hi Alice, I can hear you!
+        John->>-Alice: I feel great!
+```
+
+```mermaid
+    gantt
+        title A Gantt Diagram
+        dateFormat YYYY-MM-DD
+        section Section
+        A task :a1, 2020-01-01, 30d
+        another task :after a1 , 20d
+        section Another
+        Task in sec :2020-01-12 , 12d
+        another task : 24d
+```
+</pre>
+
+
+```mermaid
+    graph TD
+        A[Christmas] -->|Get money| B(Go Shopping)
+        B --> C{Let me think}
+        C --> |One| D[Laptop]
+        C --> |Two| E[iPhone]
+        C --> |Three| F[fa:fa-car Car]
+```
+
+```mermaid
+    sequenceDiagram
+        Alice->>+John: Hello Jhon, ow are you?
+        Alice->>+John: John, can you hear me?
+        John->>-Alice: Hi Alice, I can hear you!
+        John->>-Alice: I feel great!
+```
+
+```mermaid
+    gantt
+        title A Gantt Diagram
+        dateFormat YYYY-MM-DD
+        section Section
+        A task :a1, 2020-01-01, 30d
+        another task :after a1 , 20d
+        section Another
+        Task in sec :2020-01-12 , 12d
+        another task : 24d
+```
