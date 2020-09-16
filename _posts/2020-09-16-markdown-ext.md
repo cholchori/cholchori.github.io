@@ -127,28 +127,29 @@ _이탤릭_
 
 # 링크
 ```
-[링크](http://192.168.6.9:9003/)  
-[내부링크](/3과 대문)  
-<http://192.168.6.9:9003/>  
-[링크설명](http://192.168.6.9:9003/ "사고관리 시스템으로 이동합니다")
+[링크](https://www.google.com)  
+[내부링크](/그어딘가)  
+<https://cholchori.github.io>  
+[링크설명](https://cholchori.tistory.com "다른 홈페이지로 이동합니다")
 ```
-[링크](http://192.168.6.9:9003/)  
-[내부링크](/3과 대문)  
-<http://192.168.6.9:9003/>  
-[링크설명](http://192.168.6.9:9003/ "사고관리 시스템으로 이동합니다")
+[링크](https://www.google.com)  
+[내부링크](/그어딘가)  
+<https://cholchori.github.io>  
+[링크설명](https://cholchori.tistory.com "다른 홈페이지로 이동합니다")
 
 
 # 이미지
 ```
 링크와 비슷(앞에 !가 붙음)  
-이미지 ![](http://192.168.6.114:8090/chase/target/-/wikis/uploads/6b4ee3184c8b43af6093ccb420e408ee/image.png)  
-이미지 링크 [![](http://192.168.6.114:8090/chase/target/-/wikis/uploads/6b4ee3184c8b43af6093ccb420e408ee/image.png)](http://192.168.6.9:9003/ "사고관리 시스템으로 이동")  
+이미지 ![](https://github.com/cholchori/cholchori.github.io/blob/master/img/smile.gif)  
+이미지 링크 [![](https://github.com/cholchori/cholchori.github.io/blob/master/img/smile.gif)](https://cholchori.tistory.com "다른 홈페이지로 이동")  
 
 ```
 
 링크와 비슷(앞에 !가 붙음)  
-이미지 ![](http://192.168.6.114:8090/chase/target/-/wikis/uploads/6b4ee3184c8b43af6093ccb420e408ee/image.png)  
-이미지 링크 [![](http://192.168.6.114:8090/chase/target/-/wikis/uploads/6b4ee3184c8b43af6093ccb420e408ee/image.png)](http://192.168.6.9:9003/ "사고관리 시스템으로 이동")
+이미지 ![](https://github.com/cholchori/cholchori.github.io/blob/master/img/smile.gif)  
+이미지 링크 [![](https://github.com/cholchori/cholchori.github.io/blob/master/img/smile.gif)](https://cholchori.tistory.com "다른 홈페이지로 이동")  
+
 
 # 코드블럭
 ## 인라인 코드
